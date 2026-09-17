@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikash Kumar | Academic & Research Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-xl tracking-tight text-slate-900">Vikash Kumar</a>
+      <nav class="hidden md:flex space-x-6 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-brand-600 transition">About</a>
+        <a href="#research" class="hover:text-brand-600 transition">Research & Projects</a>
+        <a href="#teaching" class="hover:text-brand-600 transition">Teaching</a>
+        <a href="#awards" class="hover:text-brand-600 transition">Honors</a>
+        <a href="#contact" class="hover:text-brand-600 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
+
+    <!-- Hero / Intro -->
+    <section id="about" class="pt-6">
+      <div class="space-y-4">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 border border-brand-100">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> CS PhD Applicant & Researcher
+        </span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
+          Lecturer & Systems Researcher
+        </h1>
+        <p class="text-lg text-slate-600 max-w-3xl leading-relaxed">
+          Lecturer in Computer Science and researcher specializing in <span class="text-slate-900 font-medium">Natural Language Processing (NLP)</span>, <span class="text-slate-900 font-medium">Retrieval-Augmented Generation (RAG)</span>, and <span class="text-slate-900 font-medium">Dense Vector Retrieval</span>[cite: 2]. Passionate about designing robust architectures for institutional knowledge management and grounded LLM reasoning[cite: 2].
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="mailto:vikash.kumar.research@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 text-white text-sm font-medium hover:bg-slate-800 transition">
+            <i data-lucide="mail" class="w-4 h-4"></i> Get in Touch
+          </a>
+          <a href="https://github.com/vikashpro" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-700 text-sm font-medium hover:bg-slate-50 transition">
+            <i data-lucide="github" class="w-4 h-4"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section>
+      <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+        <i data-lucide="compass" class="w-5 h-5 text-brand-600"></i> Research Interests
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div class="p-3.5 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
+          Natural Language Processing[cite: 2]
+        </div>
+        <div class="p-3.5 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
+          Retrieval-Augmented Gen (RAG)[cite: 2]
+        </div>
+        <div class="p-3.5 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
+          Dense Vector Search (FAISS)[cite: 2]
+        </div>
+        <div class="p-3.5 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
+          LLM Agentic Systems[cite: 2]
+        </div>
+        <div class="p-3.5 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
+          Knowledge Representation[cite: 2]
+        </div>
+        <div class="p-3.5 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
+          Stylometric Text Attribution[cite: 2]
+        </div>
+      </div>
+    </section>
+
+    <!-- Research & Projects -->
+    <section id="research" class="space-y-6">
+      <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+        <i data-lucide="flask-conical" class="w-5 h-5 text-brand-600"></i> Selected Research & AI Systems
+      </h2>
+      <div class="grid gap-6">
+
+        <!-- AI-AMS -->
+        <article class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm space-y-3">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="text-lg font-semibold text-slate-900">AI-Powered Archival Management System (AI-AMS)</h3>
+            <span class="text-xs font-semibold px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-200 rounded-full">
+              Ignite Competition Award Winner[cite: 2]
+            </span>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Architected a hybrid information retrieval platform coupling Elasticsearch metadata indices with dense semantic embeddings to structure and query historical government records[cite: 2]. Implemented a human-in-the-loop validation pipeline to ensure archival data provenance and reduce retrieval hallucination[cite: 2].
+          </p>
+          <div class="flex flex-wrap gap-2 pt-1 text-xs text-slate-500 font-mono">
+            <span class="bg-slate-100 px-2 py-1 rounded">Elasticsearch</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">Dense Embeddings</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">RAG</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">Information Retrieval</span>
+          </div>
+        </article>
+
+        <!-- Exam RAG -->
+        <article class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm space-y-3">
+          <h3 class="text-lg font-semibold text-slate-900">Document-Grounded RAG Pipeline for Standardized Tests</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Constructed an end-to-end question-answering framework over domain-specific exam corpora[cite: 2]. Evaluated vector indexing using SentenceTransformers and FAISS vector databases, optimizing text chunking strategies to minimize hallucination rates[cite: 2].
+          </p>
+          <div class="flex flex-wrap gap-2 pt-1 text-xs text-slate-500 font-mono">
+            <span class="bg-slate-100 px-2 py-1 rounded">Python</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">FAISS</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">SentenceTransformers</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">Llama-3</span>
+          </div>
+        </article>
+
+        <!-- Agentic NASA -->
+        <article class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm space-y-3">
+          <h3 class="text-lg font-semibold text-slate-900">Conversational Space Telemetry & Visual Explorer</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Designed an agentic workflow using LangGraph to orchestrate external API tool calling and natural language reasoning across multi-modal NASA astronomical datasets[cite: 2].
+          </p>
+          <div class="flex flex-wrap gap-2 pt-1 text-xs text-slate-500 font-mono">
+            <span class="bg-slate-100 px-2 py-1 rounded">LangGraph</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">Llama-3.3-70B</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">Tool Calling</span>
+            <span class="bg-slate-100 px-2 py-1 rounded">Plotly</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Teaching & Mentorship -->
+    <section id="teaching" class="space-y-4">
+      <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+        <i data-lucide="graduation-cap" class="w-5 h-5 text-brand-600"></i> Teaching & Academic Service
+      </h2>
+      <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm space-y-4">
+        <div>
+          <div class="flex flex-wrap justify-between items-baseline">
+            <h3 class="text-base font-semibold text-slate-900">Lecturer (BPS-17), Computer Science[cite: 2]</h3>
+            <span class="text-xs text-slate-500 font-medium">Dec 2021 – Present</span>
+          </div>
+          <p class="text-sm text-slate-600">Govt. Postgraduate Science College, Quetta</p>
+        </div>
+        <ul class="list-disc list-inside text-sm text-slate-600 space-y-2">
+          <li>Instructor of record for core courses: <span class="font-medium text-slate-800">Artificial Intelligence, Data Structures & Algorithms, and DBMS</span>[cite: 2].</li>
+          <li>Supervised and evaluated <span class="font-medium text-slate-800">8 undergraduate capstone projects</span> covering research formulation, system design, and technical writing[cite: 2].</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards" class="space-y-4">
+      <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+        <i data-lucide="award" class="w-5 h-5 text-brand-600"></i> Honors & Fellowships
+      </h2>
+      <div class="divide-y divide-slate-200 border border-slate-200 bg-white rounded-xl shadow-sm">
+        <div class="p-4 flex items-start gap-4">
+          <div class="p-2 rounded bg-amber-50 text-amber-700">
+            <i data-lucide="trophy" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-900">2nd Runner-Up & Regional Winner — Ignite AI Wrapper Competition[cite: 2]</h3>
+            <p class="text-xs text-slate-600 mt-0.5">National prize (PKR 500,000) for AI-AMS in the GovTech Category (2025)[cite: 2].</p>
+          </div>
+        </div>
+        <div class="p-4 flex items-start gap-4">
+          <div class="p-2 rounded bg-blue-50 text-brand-700">
+            <i data-lucide="globe" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-900">Global UGRAD Fellow — New Mexico Highlands University, USA[cite: 2]</h3>
+            <p class="text-xs text-slate-600 mt-0.5">Fully funded merit exchange fellowship administered by the U.S. Department of State (GPA: 3.75/4.0)[cite: 2].</p>
+          </div>
+        </div>
+        <div class="p-4 flex items-start gap-4">
+          <div class="p-2 rounded bg-emerald-50 text-emerald-700">
+            <i data-lucide="check-circle" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-900">Prime Minister National ICT Scholarship[cite: 2]</h3>
+            <p class="text-xs text-slate-600 mt-0.5">Full 4-year undergraduate award; top ~1% out of 50,000 applicants nationwide[cite: 2].</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="p-8 bg-slate-900 rounded-2xl text-white text-center space-y-4">
+      <h2 class="text-2xl font-bold">Connect for Research & Collaboration</h2>
+      <p class="text-sm text-slate-300 max-w-md mx-auto">
+        Feel free to reach out to discuss NLP research, RAG systems, or graduate academic opportunities.
+      </p>
+      <div class="pt-2">
+        <a href="mailto:vikash.kumar.research@gmail.com" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-white text-slate-900 text-sm font-semibold hover:bg-slate-100 transition">
+          <i data-lucide="mail" class="w-4 h-4"></i> vikash.kumar.research@gmail.com
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-200 py-6 text-center text-xs text-slate-500">
+    © 2026 Vikash Kumar. Hosted on GitHub Pages.
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
